@@ -15,6 +15,10 @@ The shell scripts to performe PaCS-MD
  - MDAnalysis
  - numpy
  
+ ```
+ conda install -c conda-forge mdanalysis
+ ```
+ 
 # Installation
  Copy the lib directory on the your each working directory.
  ```
