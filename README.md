@@ -61,7 +61,7 @@ The scripts to performe PaCS-MD
 Please cite this paper.
 
 
-Ryuhei Harada and Akio Kitao. Parallel cascade selection molecular dynamics (PaCS-MD) to generate conformational transition pathway. J. Chem. Phys. (2021)DOI:[https://aip.scitation.org/doi/10.1063/1.4813023]
+Ryuhei Harada and Akio Kitao. Parallel cascade selection molecular dynamics (PaCS-MD) to generate conformational transition pathway. J. Chem. Phys. (2021)DOI:[https://doi.org/10.1063/1.4813023]
 
  
 # Contributers
