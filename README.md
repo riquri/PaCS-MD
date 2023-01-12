@@ -1,6 +1,6 @@
 # PaCS-MD
 
-The shell scripts to performe PaCS-MD
+The scripts to performe PaCS-MD
   
 # DEMO  
 
@@ -30,7 +30,12 @@ The shell scripts to performe PaCS-MD
  Place the initial and target structure
  ```
  cp {your_initial_structure.pdb} ./input/initial.pdb
- cp {your_target_structure.pdb} ./input/initial.pdb
+ cp {your_target_structure.pdb} ./input/target.pdb
+ ```
+ 
+ Modify the leap input file (./lib/run_leap.sh)
+ ```
+ set mol box {50 50 50 } # Size of the PBC box
  ```
  
  Modify the preference file (./lib/preference.sh)
@@ -48,7 +53,7 @@ The shell scripts to performe PaCS-MD
  To restart PaCS-MD,
  ```
  cd {TRIAL_directory}
- nohup ./lib/run_pacs {START_CYCLE} {LAST_CYCLE} {NUMBER_OF_CANDIDATE}
+ nohup ./lib/run_pacs.sh {START_CYCLE(not include the exist cycle)} {LAST_CYCLE} {NUMBER_OF_CANDIDATE=10}
  ```
 
  
