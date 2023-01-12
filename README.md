@@ -58,7 +58,7 @@ Ryuhei Harada and Akio Kitao. Parallel cascade selection molecular dynamics (PaC
 # Contributers
 - Rikuri Morita*, Ryuhei Harada*.
 - Center for Computational Sciences, University of Tsukuba
-- morita@ccs.tsukuba.ac.jp
+- morita@ccs.tsukuba.ac.jp, ryuhei@ccs.tsukuba.ac.jp
  
 # License
  
