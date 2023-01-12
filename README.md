@@ -6,7 +6,8 @@ The scripts to performe PaCS-MD
 
 
 # Features
-
+The current implementation is for local workstation.
+The parallel version for super computer is under construction.
  
 # Requirement
 - Gromacs (2018 or later)
@@ -14,6 +15,7 @@ The scripts to performe PaCS-MD
 - Python 3.x
  - MDAnalysis
  - numpy
+ - matplotlib (for analysis)
  
  ```
  conda install -c conda-forge mdanalysis
@@ -56,6 +58,12 @@ The scripts to performe PaCS-MD
  nohup ./lib/run_pacs.sh {START_CYCLE(not include the exist cycle)} {LAST_CYCLE} {NUMBER_OF_CANDIDATE=10}
  ```
 
+ To visualize the progress with score,
+ ```
+ cd {TRIAL_directory}
+ python3 ./lib/plot_score.py
+ ```
+ This script draw a plot and save a pdf file.
  
 # Note
 Please cite this paper.
